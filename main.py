@@ -41,3 +41,15 @@ elif day.lower() == "sunday":
   print()
 else:
   print("Oops! Looks like you entered an invalid day.", name+".", "Please, kindly start over.")
+
+
+def endGame():
+  while True:
+    print()
+    x= input("""To try again please click Stop on top right page and click Run """)
+    print()
+    continue
+
+
+if __name__ == "__main__":
+  endGame()
