@@ -12,10 +12,10 @@ print()
 if day.lower() == "monday":
   weekend = input("How was your weekend? Please enter 'bad' or 'good' ")
   print()
-  if weekend.strip().trim().lower() == "good":
+  if weekend.lower() == "good":
     print("To maintain the good mood from the weekend, go ahead and listen to",song,"be productive and at the end of the day have something to celebrate that you achieved today.")
     print()
-  elif weekend.strip().trim().lower() == "bad":
+  elif weekend.lower() == "bad":
     print("To get rid of the large emotional shift from the weekend, go ahead and listen to",song,"be productive and at the end of the day have something to celebrate that you achieved today.")
     print()
   else:
